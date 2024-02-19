@@ -1,0 +1,110 @@
+.table-sortable th {
+	cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+	content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+	content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+	margin-left: 5px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+/* Apply a reset to remove default styling */
+body, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style the table headers */
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+/* Style the table cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style alternating rows for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #FFF;
+	padding: 10px;
+	text-align: center;
+	color: rgb(10, 0, 0);
+	font-family: Arial, sans-serif;
+}
+
+.logo {
+	width: 1000px; /* Adjust the width as needed */
+	height: auto;
+	margin-left: 20px; /* Adjust the margin as needed */
+}
+
+thead {font-size: 7px;
+
+}
+
+button {
+	background-color: #2c5fc7; /* Blue */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+  .button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #2c5fc7;
+  }
+
+  .button1:hover {
+	background-color: #2c5fc7;
+	color: white;
+  }
+  
