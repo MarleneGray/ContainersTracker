@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" id="here">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers arriving the next 2 weeks</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="htmlcontent">
+  <header>
+    <img class="logo" src="ICL UK.jpg" alt="Your Logo">
+    <h2>CONTAINERS WITH ETA TWO WEEKS IN THE PAST</h2>
+</header>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script src="./src/tablesort.js"></script>
+  <section>
+    <button class="button button1" onclick="downloadTableAsXLS()">Download as XLS</button>
+  </section>
+<table class="table-sortable"  id="csvTable">
+    <thead>
+        <tr>
+          <th><h1>Container Number</h1></th>
+          <th><h1>Container Status</h1></th>
+          <th><h1>ATD</h1></th>
+          <th><h1>ETD</h1></th>
+          <th><h1>ETA</h1></th>
+          <th><h1>ATA</h1></th>
+          <th><h1>Delivery Date</h1></th>
+          <th><h1>Diff in Days</h1></th>
+          <th><h1>Goods Description</h1></th>
+          <th><h1>Local Client Name</h1></th>
+          <th><h1>Transport Company</h1></th>
+          <th><h1>Delivery Org.</h1></th>
+          <th><h1>Leg Moved by</h1></th>
+        </tr>
+      </thead>
+      <tbody>
+        
+
+              <!-- Table content will be inserted here dynamically -->
+        
+      </tbody>
+ 
+</table>
+</body>
+</body>
+</html>
+
